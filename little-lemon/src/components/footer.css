@@ -1,0 +1,38 @@
+footer {
+  background-color: var(--primary-clr-green);
+}
+
+footer .img-container {
+  width: 7em;
+  height: 2em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+}
+
+.footer__card {
+  display: flex;
+  gap: 10em;
+}
+
+.footer__card__links {
+}
+
+.footer__card__links h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--primary-clr-yellow);
+}
+
+.footer__card__links p {
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.footer__card__links a {
+  color: #ffffff;
+  font-size: 1em;
+}

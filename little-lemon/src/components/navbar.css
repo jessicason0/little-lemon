@@ -1,0 +1,24 @@
+.navbar .img-container {
+  width: 10em;
+  height: 3em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  gap: 2em;
+}
+
+nav li {
+}
+
+nav a {
+  color: #333333;
+  font-weight: 600;
+  font-size: 1.2em;
+}

@@ -1,16 +1,20 @@
 import { useState } from "react";
 import "./App.css";
-import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Menu from "./pages/Menu";
+import Reservations from "./pages/Reservations";
 import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
-      <Header />
       <Navbar />
-      <Main />
+      <Home />
+      <About />
+      <Menu />
+      <Reservations />
       <Footer />
     </div>
   );

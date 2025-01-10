@@ -1,0 +1,154 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.home__banner {
+  background-image: url(https://images.unsplash.com/photo-1496864137062-a12b5defe6be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  object-fit: cover;
+  background-position: center;
+  padding: 5em 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.home__banner h1 {
+  font-size: 3em;
+  color: var(--primary-clr-green);
+  font-weight: 700;
+}
+
+.home__banner p {
+  font-size: 1.2em;
+  max-width: 40em;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.home__banner button {
+  width: 8em;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: var(--primary-clr-green);
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.home__specials {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.home__specials h2 {
+  font-size: 2em;
+  color: #333333;
+  font-weight: 600;
+}
+
+.home__specials button {
+  width: 8em;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: var(--primary-clr-green);
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.home__specials__cntr {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+  justify-content: center;
+}
+
+.home__specials__card {
+  max-width: 20em;
+  aspect-ratio: 5/3;
+  width: 100%;
+  background-color: #edefee;
+  border-radius: 0.5em;
+}
+
+.home__specials__card .img-container {
+  width: 100%;
+  height: 100%;
+}
+
+.home__specials__card img {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.home__specials__desc {
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.home__specials__desc h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #333333;
+}
+
+.home__specials__desc p:nth-child(2) {
+  font-size: 1.2em;
+}
+
+.home__specials__desc p {
+  color: #333333;
+}
+
+.home__reviews {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1em;
+  color: #333333;
+}
+
+.home__reviews h2 {
+  font-size: 2em;
+  color: #333333;
+  font-weight: 600;
+}
+
+.home__reviews__cntr {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 18%;
+  gap: 1em;
+  justify-content: center;
+  width: 100%;
+}
+
+.home__reviews__card {
+  background-color: #edefee;
+  max-width: 13.5em;
+  width: 100%;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.home__reviews__card h4 {
+  font-size: 1.2em;
+}
+
+.home__reviews__card div {
+}
+
+.home__reviews__card svg {
+  width: 1em;
+  stroke: var(--primary-clr-yellow);
+  fill: var(--primary-clr-yellow);
+}
+
+.home__reviews__card p {
+}

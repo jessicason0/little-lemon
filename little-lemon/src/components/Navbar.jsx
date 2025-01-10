@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css";
 
 export default function Navbar() {
   const navLinks = [
@@ -6,21 +7,29 @@ export default function Navbar() {
     { path: "/about", name: "About" },
     { path: "/menu", name: "Menu" },
     { path: "/reservations", name: "Reservations" },
-    { path: "orderonline", name: "Order Online" },
-    { path: "login", name: "Login" },
   ];
 
   return (
-    <nav>
-      <ul>
-        {navLinks.map((item, idx) => {
-          return (
-            <li key={idx}>
-              <a href={item.path}>{item.name}</a>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+    <div className="wrapper">
+      <header className="navbar">
+        <div className="img-container">
+          <img
+            src="https://littlelemonproject.com/Logo.png"
+            alt="Little Lemon Logo"
+          />
+        </div>
+        <nav>
+          <ul>
+            {navLinks.map((item, idx) => {
+              return (
+                <li key={idx}>
+                  <a href={item.path}>{item.name}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
+      </header>
+    </div>
   );
 }

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+  font-family: "Markazi Text", serif;
+}
+
+:root {
+  --primary-clr-green: #495e57;
+  --primary-clr-yellow: #f4ce14;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 60em;
+  width: 100%;
+  margin: auto;
+}
+
+.img-container {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
