@@ -1,0 +1,57 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.about svg {
+  fill: var(--primary-clr-yellow);
+  width: 1em;
+}
+
+.about__banner {
+  background-image: url(https://conviviumosteria.com/wp-content/uploads/2019/06/best-italian-restaurant-brooklyn.jpg);
+  object-fit: cover;
+  background-position: bottom;
+  width: 100%;
+  filter: blur(1px) grayscale(50%);
+  padding: 6em 0;
+}
+
+.about__banner h1 {
+  font-size: 3em;
+  z-index: 2;
+  color: var(--primary-clr-green);
+}
+
+.about__banner p {
+  z-index: 2;
+  font-size: 1.2em;
+  max-width: 35em;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.about__content {
+}
+
+.about__section {
+}
+
+.about__section__desc {
+}
+
+.about__section__desc h2 {
+  font-size: 2em;
+  color: #333333;
+}
+
+.about__section__desc div {
+}
+
+.about__section__desc p {
+  font-size: 1.1em;
+}
+
+.about__section .img-container {
+}

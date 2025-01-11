@@ -1,0 +1,55 @@
+.reservations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.reservations__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.reservations__header h1 {
+  font-size: 3em;
+  font-weight: 600;
+  color: var(--primary-clr-green);
+}
+
+.reservations__header h2 {
+  font-size: 1.8em;
+  text-align: center;
+  color: #333333;
+}
+
+.reservations__cntr {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.reservations__cntr__box {
+  display: flex;
+  gap: 1em;
+  width: 22em;
+}
+
+.reservations__cntr__box-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.reservations__cntr__box-input input {
+  color: #333333;
+  padding: 0.1em 0.3em;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  color: #333333;
+  padding: 0.3em;
+  height: 6em;
+}

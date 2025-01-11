@@ -1,5 +1,6 @@
 footer {
   background-color: var(--primary-clr-green);
+  margin-top: 2em;
 }
 
 footer .img-container {
