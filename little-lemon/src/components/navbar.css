@@ -1,6 +1,7 @@
 .navbar .img-container {
   width: 10em;
   height: 3em;
+  cursor: pointer;
 }
 
 .navbar .img-container img {
@@ -11,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  align-items: center;
 }
 
 nav ul {

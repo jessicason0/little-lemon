@@ -1,7 +1,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 3em;
 }
 
 .about svg {
@@ -10,40 +10,67 @@
 }
 
 .about__banner {
-  background-image: url(https://conviviumosteria.com/wp-content/uploads/2019/06/best-italian-restaurant-brooklyn.jpg);
-  object-fit: cover;
-  background-position: bottom;
+  padding: 7.5em 1em;
   width: 100%;
-  filter: blur(1px) grayscale(50%);
-  padding: 6em 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__banner-img {
+  background-image: url(https://images.unsplash.com/photo-1562601579-599dec564e06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  width: 100%;
+  filter: saturate(50%) contrast(90%) brightness(60%);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about__banner h1 {
   font-size: 3em;
-  z-index: 2;
-  color: var(--primary-clr-green);
+  color: #f3f3f3;
+  font-weight: 700;
 }
 
 .about__banner p {
-  z-index: 2;
   font-size: 1.2em;
   max-width: 35em;
-  color: white;
+  color: #cfcfcf;
   text-shadow: 1px 1px 5px black;
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  width: 100%;
 }
 
 .about__section {
+  display: flex;
+  gap: 0.5em;
+  width: 100%;
+  background-color: #edefee;
+  border-radius: 0.5em;
+}
+
+.about__section:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .about__section__desc {
+  width: 100%;
+  padding: 1.5em;
 }
 
 .about__section__desc h2 {
   font-size: 2em;
   color: #333333;
+  font-weight: 600;
 }
 
 .about__section__desc div {
@@ -51,7 +78,10 @@
 
 .about__section__desc p {
   font-size: 1.1em;
+  color: #333333;
 }
 
 .about__section .img-container {
+  width: 100%;
+  flex: 1 1 65%;
 }

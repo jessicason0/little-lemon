@@ -13,12 +13,14 @@ export default function Navbar() {
   return (
     <div className="wrapper">
       <header className="navbar">
-        <div className="img-container">
-          <img
-            src="https://littlelemonproject.com/Logo.png"
-            alt="Little Lemon Logo"
-          />
-        </div>
+        <Link to="/">
+          <div className="img-container">
+            <img
+              src="https://littlelemonproject.com/Logo.png"
+              alt="Little Lemon Logo"
+            />
+          </div>
+        </Link>
         <nav>
           <ul>
             {layout.map((item, idx) => {

@@ -125,6 +125,7 @@ export default function About() {
             every meal is a celebration.
           </p>
         </div>
+        <div className="about__banner-img"></div>
       </section>
 
       <div className="wrapper">
@@ -255,7 +256,10 @@ export default function About() {
               </p>
             </div>
             <div className="img-container">
-              <img src="" alt="Image" />
+              <img
+                src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Image"
+              />
             </div>
           </section>
 
@@ -375,15 +379,21 @@ export default function About() {
                 </svg>
               </div>
               <p>
-                Every meal at Little Lemon is designed to nourish both the body
-                and the spirit. Our chefs infuse passion into each dish, using
-                only the freshest ingredients to create meals that are as
-                comforting as they are delicious. From our table to yours, we
-                aim to bring warmth and joy to every dining experience.
+                Every meal at Little Lemon is designed to nourish not just the
+                body, but the soul as well. Using only the finest, freshest
+                ingredients, we create meals that are not only delicious but
+                also deeply satisfying. Each plate is a celebration of
+                tradition, with every bite offering a taste of the love and care
+                that goes into our cooking. At Little Lemon, we invite you to
+                savor the joy of good food, shared with good company, as we
+                bring the heart of Italy right to your table.
               </p>
             </div>
             <div className="img-container">
-              <img src="" alt="Image" />
+              <img
+                src="https://images.pexels.com/photos/1398688/pexels-photo-1398688.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Image"
+              />
             </div>
           </section>
 
@@ -503,14 +513,20 @@ export default function About() {
                 </svg>
               </div>
               <p>
-                At Little Lemon, we strive to offer more than just great food.
-                Our cozy ambiance, attentive service, and warm hospitality
-                create an environment where you can relax, connect with friends,
-                and enjoy a meal that feels like home.
+                We believe that dining is about creating memories, and our
+                welcoming atmosphere is designed to make every guest feel like
+                part of our family. Whether you're here for a special
+                celebration or a casual night out, we take pride in providing an
+                experience that makes you feel comfortable, cared for, and truly
+                valued. With each visit, we aim to bring a sense of belonging,
+                where every meal becomes a cherished moment.
               </p>
             </div>
             <div className="img-container">
-              <img src="" alt="Image" />
+              <img
+                src="https://images.unsplash.com/photo-1669147907102-b7c75a479979?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Image"
+              />
             </div>
           </section>
         </div>

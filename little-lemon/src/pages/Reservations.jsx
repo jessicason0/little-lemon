@@ -58,12 +58,7 @@ export default function Reservations() {
             </div>
             <div className="reservations__cntr__box-input">
               <label htmlFor="phone">Phone Number</label>
-              <input
-                type="tel"
-                pattern="[0-9]{3} - [0-9]{3} - [0-9]{4}"
-                required
-                id="phone"
-              />
+              <input type="tel" required id="phone" />
             </div>
           </div>
 
@@ -82,6 +77,8 @@ export default function Reservations() {
             <label htmlFor="comment">Comments (optional)</label>
             <textarea id="comment"></textarea>
           </div>
+
+          <button>Book</button>
         </form>
       </main>
     </div>

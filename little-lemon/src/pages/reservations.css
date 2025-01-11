@@ -53,3 +53,13 @@ textarea {
   padding: 0.3em;
   height: 6em;
 }
+
+.reservations__cntr button {
+  width: 8em;
+  padding: 0.5em;
+  border-radius: 1em;
+  background-color: var(--primary-clr-green);
+  color: #ffffff;
+  font-size: 1em;
+  margin: auto;
+}
