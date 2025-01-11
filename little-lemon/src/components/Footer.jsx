@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="footer">
           <div className="img-container">
             <img
-              src="https://littlelemonproject.com/Logo.png"
+              src="https://little-lemon-restaurant-project.netlify.app/static/media/Logo%20Footer.2c859235d6c57bb54176.png"
               alt="Footer Img"
             />
           </div>

@@ -1,14 +1,15 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-router";
+
+const layout = [
+  { to: "/", label: "Home" },
+  { to: "/about", label: "About" },
+  { to: "/menu", label: "Menu" },
+  { to: "/reservations", label: "Reservations" },
+];
 
 export default function Navbar() {
-  const navLinks = [
-    { path: "/home", name: "Home" },
-    { path: "/about", name: "About" },
-    { path: "/menu", name: "Menu" },
-    { path: "/reservations", name: "Reservations" },
-  ];
-
   return (
     <div className="wrapper">
       <header className="navbar">
@@ -20,10 +21,10 @@ export default function Navbar() {
         </div>
         <nav>
           <ul>
-            {navLinks.map((item, idx) => {
+            {layout.map((item, idx) => {
               return (
                 <li key={idx}>
-                  <a href={item.path}>{item.name}</a>
+                  <Link to={item.to}>{item.label}</Link>
                 </li>
               );
             })}

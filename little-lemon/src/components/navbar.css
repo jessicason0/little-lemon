@@ -3,6 +3,10 @@
   height: 3em;
 }
 
+.navbar .img-container img {
+  object-fit: contain;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
